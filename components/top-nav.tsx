@@ -1,6 +1,6 @@
 "use client"
 
-import { Search, Bell, HelpCircle, Leaf } from "lucide-react"
+import { Search, Bell, Circle as HelpCircle, Leaf } from "lucide-react"
 import { useState } from "react"
 import { getAvailableCompanies } from "@/lib/esg-data"
 
