@@ -1,0 +1,129 @@
+{
+  "companies": {
+    "Tesla": {
+      "name": "Tesla Inc.",
+      "ticker": "TSLA",
+      "industry": "Automotive",
+      "country": "United States",
+      "type": "Public Company",
+      "icon": "Car",
+      "kpis": {
+        "esgScore": 48,
+        "momentumScore": 82,
+        "aiConfidence": 87
+      },
+      "trend": "Jan – Jun 2026",
+      "trendData": [
+        { "month": "Jan", "esg": 39, "momentum": 58 },
+        { "month": "Feb", "esg": 41, "momentum": 64 },
+        { "month": "Mar", "esg": 43, "momentum": 69 },
+        { "month": "Apr", "esg": 44, "momentum": 74 },
+        { "month": "May", "esg": 46, "momentum": 79 },
+        { "month": "Jun", "esg": 48, "momentum": 82 }
+      ],
+      "pillars": [
+        { "label": "Environmental", "value": 72, "improving": true },
+        { "label": "Social", "value": 61, "improving": true },
+        { "label": "Governance", "value": 68, "improving": false },
+        { "label": "Innovation & Digital", "value": 81, "improving": true }
+      ],
+      "overallPillarScore": 74,
+      "evidenceSignals": [
+        { "label": "Positive News Sentiment", "value": "82%", "positive": true, "icon": "sentiment" },
+        { "label": "ESG Hiring Growth", "value": "+38%", "positive": true, "icon": "hiring" },
+        { "label": "Green Patent Filings", "value": "+24%", "positive": true, "icon": "patent" },
+        { "label": "Renewable Energy Investment", "value": "High", "positive": true, "icon": "renewable" },
+        { "label": "Carbon Emissions Reduction", "value": "-12%", "positive": true, "icon": "carbon" },
+        { "label": "ESG Report Improvement", "value": "Strong", "positive": true, "icon": "report" }
+      ],
+      "summaryHighlights": [
+        "Positive sustainability news",
+        "Increased green hiring",
+        "Patent growth",
+        "Reduced controversies",
+        "Improved governance"
+      ],
+      "category": "Future Leader",
+      "summary": "Tesla demonstrates consistently improving ESG momentum driven by renewable energy investments, increased sustainability hiring, positive ESG news sentiment, innovation in battery technology, and strong governance improvements.",
+      "recommendation": {
+        "action": "BUY / OPPORTUNITY",
+        "headline": "Strong long-term ESG momentum detected.",
+        "note": "Consider adding to ESG-focused investment watchlist."
+      },
+      "riskLevel": "Low Risk",
+      "riskNote": "Minimal ESG controversy exposure",
+      "trendLabel": "Improving Fast",
+      "trendChange": "+24 pts over 6 months",
+      "matrixPosition": { "left": "70%", "top": "26%" }
+    },
+    "Microsoft": {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "industry": "Technology",
+      "country": "United States",
+      "type": "Public Company",
+      "icon": "Monitor",
+      "kpis": {
+        "esgScore": 84,
+        "momentumScore": 79,
+        "aiConfidence": 92
+      },
+      "trend": "Jan – Jun 2026",
+      "trendData": [
+        { "month": "Jan", "esg": 78, "momentum": 62 },
+        { "month": "Feb", "esg": 79, "momentum": 66 },
+        { "month": "Mar", "esg": 80, "momentum": 70 },
+        { "month": "Apr", "esg": 81, "momentum": 73 },
+        { "month": "May", "esg": 83, "momentum": 76 },
+        { "month": "Jun", "esg": 84, "momentum": 79 }
+      ],
+      "pillars": [
+        { "label": "Environmental", "value": 89, "improving": true },
+        { "label": "Social", "value": 85, "improving": true },
+        { "label": "Governance", "value": 82, "improving": true },
+        { "label": "Innovation & Digital", "value": 94, "improving": true }
+      ],
+      "overallPillarScore": 88,
+      "evidenceSignals": [
+        { "label": "Positive News Sentiment", "value": "91%", "positive": true, "icon": "sentiment" },
+        { "label": "ESG Hiring Growth", "value": "+22%", "positive": true, "icon": "hiring" },
+        { "label": "Green Patent Filings", "value": "+31%", "positive": true, "icon": "patent" },
+        { "label": "Renewable Energy Investment", "value": "Very High", "positive": true, "icon": "renewable" },
+        { "label": "Carbon Emissions Reduction", "value": "-18%", "positive": true, "icon": "carbon" },
+        { "label": "ESG Report Improvement", "value": "Excellent", "positive": true, "icon": "report" }
+      ],
+      "summaryHighlights": [
+        "Carbon negative commitment",
+        "Strong governance structure",
+        "Leading sustainability initiatives",
+        "Renewable energy progress",
+        "Diversity & inclusion focus"
+      ],
+      "category": "Future Leader",
+      "summary": "Microsoft shows exceptional ESG leadership with ambitious carbon negative goals, industry-leading renewable energy adoption, strong governance practices, and comprehensive sustainability reporting that sets the standard for the tech industry.",
+      "recommendation": {
+        "action": "BUY / HOLD",
+        "headline": "Exceptional ESG leader with steady momentum.",
+        "note": "Strong addition to any ESG-focused portfolio."
+      },
+      "riskLevel": "Low Risk",
+      "riskNote": "Industry-leading ESG practices",
+      "trendLabel": "Steady Growth",
+      "trendChange": "+17 pts over 6 months",
+      "matrixPosition": { "left": "78%", "top": "22%" }
+    }
+  },
+  "watchlist": [
+    { "company": "Tesla", "ticker": "TSLA", "esg": 48, "momentum": 82, "trend": "up", "category": "Future Leader" },
+    { "company": "Microsoft", "ticker": "MSFT", "esg": 84, "momentum": 79, "trend": "up", "category": "Future Leader" },
+    { "company": "Apple", "ticker": "AAPL", "esg": 80, "momentum": 41, "trend": "down", "category": "Overrated Leader" },
+    { "company": "DBS", "ticker": "DBS", "esg": 44, "momentum": 76, "trend": "up", "category": "Hidden Winner" },
+    { "company": "NVIDIA", "ticker": "NVDA", "esg": 39, "momentum": 33, "trend": "flat", "category": "Value Trap" }
+  ],
+  "alerts": [
+    { "company": "Tesla", "message": "Released a new sustainability report.", "time": "2h ago", "tone": "positive" },
+    { "company": "Apple", "message": "Announced a carbon-neutral initiative.", "time": "5h ago", "tone": "info" },
+    { "company": "NVIDIA", "message": "Increased ESG hiring across teams.", "time": "8h ago", "tone": "positive" },
+    { "company": "Microsoft", "message": "Received a positive governance rating.", "time": "1d ago", "tone": "neutral" }
+  ]
+}
