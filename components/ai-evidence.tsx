@@ -1,12 +1,4 @@
-import {
-  MessageSquareText,
-  UsersRound,
-  FlaskConical,
-  Sun,
-  CloudOff,
-  FileCheck2,
-  Sparkles,
-} from "lucide-react"
+import { MessageSquareText, UsersRound, FlaskConical, Sun, CloudOff, FileCheck as FileCheck2, Sparkles } from "lucide-react"
 import type { CompanyData, EvidenceSignal } from "@/lib/esg-data"
 import { DashboardCard, CardHeader } from "@/components/dashboard-card"
 
